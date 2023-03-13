@@ -3,7 +3,7 @@ $(document).ready(() => {
     type: "GET",
     url: "NavBar.html",
     success: (data) => {
-      $(`body`).append(data);
+      $(`body`).prepend(data);
     },
     error: (error) => {
       console.log(error);
