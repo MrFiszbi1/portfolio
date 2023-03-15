@@ -11,45 +11,51 @@ $(document).ready(() => {
     },
   });
 
-  $(`body`).append(
-    $(`<main>`)
-      .css({
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        width: "80vw",
-        margin: "20px auto",
-      })
-      .append(
-        $(`<div>`)
-          .append($(`<h1>`).text(`3D Amusment Park`))
-          .append(
-            $(`<p>`).text(
-              `This was the second project from my computer graphics class at PSU (CS 447). This project consisted of creating a 3D amusement park using OpenGL. The 3D assets were designed by me using Blender. This program was created using FLTK. In order to compile and run this program you will need to have FLTK set up`
-            )
+  $(`#Projects`)
+    .css({
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      width: "80vw",
+      margin: "20px auto",
+    })
+    .append(
+      $(`<div>`)
+        .append($(`<h1>`).text(`Portfolio`))
+        .append(
+          $(`<p>`).text(
+            `This is the source code for this portfolio website. The website was the final project in an introductory class on web development as PSU.`
           )
-          .append(
-            ($(
-              `<a>`
-            ).url = `Github: https://github.com/MrFiszbi1/3D-Amusement-Park`)
+        )
+        .append(
+          ($(`<a>`).url = `Github: https://github.com/MrFiszbi1/portfolio`)
+        )
+    )
+    .append(
+      $(`<div>`)
+        .append(
+          $(`<hr>`).css({
+            borderTop: "thick solid black",
+          })
+        )
+        .append($(`<h1>`).text(`3D Amusment Park`))
+        .append(
+          $(`<p>`).text(
+            `This was the second project from my computer graphics class at PSU (CS 447). This project consisted of creating a 3D amusement park using OpenGL. The 3D assets were designed by me using Blender. This program was created using FLTK. In order to compile and run this program you will need to have FLTK set up`
           )
-      )
-      .append(
-        $(`<div>`)
-          .append(
-            $(`<hr>`).css({
-              borderTop: "thick solid black",
-            })
-          )
-          .append($(`<h1>`).text(`Portfolio`))
-          .append(
-            $(`<p>`).text(
-              `This is the source code for this portfolio website. The website was the final project in an introductory class on web development as PSU.`
-            )
-          )
-          .append(
-            ($(`<a>`).url = `Github: https://github.com/MrFiszbi1/portfolio`)
-          )
-      )
-  );
+        )
+        .append(
+          ($(
+            `<a>`
+          ).url = `Github: https://github.com/MrFiszbi1/3D-Amusement-Park`)
+        )
+    );
+
+  $(`#carouselControl`).css({
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "80vw",
+    margin: "20px auto",
+  });
 });
