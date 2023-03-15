@@ -1,5 +1,6 @@
 let profilePic = document.createElement("img");
 profilePic.src = "images/Jaafar.jpg";
+profilePic.alt = "Picture of Jaafar Rodgers";
 profilePic.width = "200";
 profilePic.height = "200";
 profilePic.style.borderRadius = "50%";

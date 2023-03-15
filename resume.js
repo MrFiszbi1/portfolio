@@ -86,8 +86,34 @@ $(document).ready(() => {
         width: "80vw",
         margin: "20px auto",
       })
+
       .append(
         $(`<div>`)
+          .append($(`<h1>`).text(`Skills`))
+          .append(
+            $(`<ul>`)
+              .append(
+                $(`<li>`).text(
+                  `C++ and C, Java, SQL, CSS, HTML, TypeScript, jQuery, OpenGL`
+                )
+              )
+              .append(
+                $(`<li>`).text(
+                  `Visual Studio Code, Linux, VIM, Android Studio, Visual Studio, GitHub`
+                )
+              )
+              .append($(`<li>`).text(`Adobe Photoshop and Blender`))
+              .append($(`<li>`).text(`Bilingual in English and Arabic`))
+          )
+      )
+
+      .append(
+        $(`<div>`)
+          .append(
+            $(`<hr>`).css({
+              borderTop: "thick solid black",
+            })
+          )
           .append($(`<h1>`).text(`Education`))
           .append($(educationPSU))
           .append($(`<p>`).text(`Portland State University | GPA: 3.61`))
@@ -104,30 +130,6 @@ $(document).ready(() => {
                 `Academic Honors: Presidents’ (2 semesters), Deans’ (2 semesters), Honors’ (3 semesters)`
               )
             )
-          )
-      )
-      .append(
-        $(`<div>`)
-          .append(
-            $(`<hr>`).css({
-              borderTop: "thick solid black",
-            })
-          )
-          .append($(`<h1>`).text(`Skills`))
-          .append(
-            $(`<ul>`)
-              .append(
-                $(`<li>`).text(
-                  `C++ and C, Java, SQL, CSS, HTML, TypeScript, jQuery, OpenGL`
-                )
-              )
-              .append(
-                $(`<li>`).text(
-                  `Visual Studio Code, Linux, VIM, Android Studio, Visual Studio, GitHub`
-                )
-              )
-              .append($(`<li>`).text(`Adobe Photoshop and Blender`))
-              .append($(`<li>`).text(`Bilingual in English and Arabic`))
           )
       )
 
