@@ -62,7 +62,7 @@ const pragmaticDate = ` - Summers of 2018 and 2019`;
 let pragmaticInfo = document.createTextNode(pragmaticDate);
 pragmaticServices = document.createElement("p");
 pragmaticServices.append(Pragmatic);
-pragmaticServices.append(sonsInfo);
+pragmaticServices.append(pragmaticInfo);
 
 $(document).ready(() => {
   $.ajax({
@@ -153,7 +153,7 @@ $(document).ready(() => {
           .append(
             $(`<ul>`).append(
               $(`<li>`).text(
-                `Ensuring building and personnel security and the de-escalation of conflicts`
+                `Ensuring building and personnel security and the de-escalation of conflicts.`
               )
             )
           )
@@ -161,7 +161,7 @@ $(document).ready(() => {
           .append(
             $(`<ul>`).append(
               $(`<li>`).text(
-                `Organization and running of events, Conflict resolution, and youth counseling`
+                `Organization and running of events, Conflict resolution, and youth counseling.`
               )
             )
           )
