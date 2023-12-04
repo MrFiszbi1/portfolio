@@ -29,11 +29,6 @@ $(document).ready(() => {
       .append(profilePic)
       .append(
         $("<p>").text(
-          "Hi, My name is Jaafar Rodgers. I am an undergrad student in my senior year at PSU. In October 2016 at the age of sixteen, I left my high school in Saudi Arabia and moved away from my parents to live with my older brothers in Portland. There I attend early college at PCC for my junior and senior years of high school. At PCC I took my first classes in computer science."
-        )
-      )
-      .append(
-        $("<p>").text(
           "While I studied at PCC, I struggled to find the section of computer science that best suited me. To do this I needed to discover who I am and what I liked. I have finally found that through the classes at PSU. One of my main strengths is my creativity. My favorite part of programming is bringing an idea to life. I have found that the most engaging work has been with web development and app development. I have found the visual aspect of web and app development to be most gratifying. I find myself to be more of a front-end developer. I have still much to learn about myself and these fields, but I am excited to find more opportunities to develop myself and my skills."
         )
       )
